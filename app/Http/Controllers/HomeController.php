@@ -13,12 +13,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('layout.index');
+        return view('layout.index', ['title' => 'Home']);
     }
 
     public function about()
     {
-        return view('layout.about');
+        return view('layout.about', ['title' => 'Tentang kami']);
     }
     /**
      * Show the form for creating a new resource.
