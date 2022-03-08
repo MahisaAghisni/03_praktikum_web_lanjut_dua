@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
 Route::get('/about', [App\Http\Controllers\HomeController::class, 'about']);
 Route::resource('/contact', App\Http\Controllers\ContactController::class);
+Route::get('/mains', [App\Http\Controllers\MainController::class, 'index']);

@@ -32,6 +32,9 @@
                                         <li class="nav-item">
                                             <a class="nav-link tm-nav-link" href="/contact">Contact</a>
                                         </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link tm-nav-link" href="/mains">Catalog</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </nav>
